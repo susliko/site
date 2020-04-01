@@ -1,0 +1,57 @@
+baseURL = "http://susliko.dev/"
+languageCode = "en"
+title = "Yet another IT blog"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://github.com/susliko\">Vasiliy Morkovkin</a> 2020"
+disqusShortname = "shortname"
+googleAnalytics = ""
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Vasiliy Morkovkin" # Author full name
+authorEmail = "1istoobig@gmail.com" # Author email
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "Susliko's blog" # Title for home page
+related = true # Includes related articles at the bottom of the article
+codeCopy = true # Add copy button above code blocks
+taxonomiesCount = true # Add taxonomies count
+
+[params.features]
+disqusOnDemand = false  # Load Disqus comments on click
+
+[params.opengraph.twitter]
+page = "markoukin" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = "markoukin"
+github = "susliko"
+email = "1istoobig@gmail.com"
+linkedin = "susliko"
+facebook = ""
+instagram = ""
+codepen = ""
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","email","twitter","linkedin"]
+
+[params.matomoAnalytics]
+siteID = 1
+rootURL = "//susliko.dev/"
+
+[params.fathomAnalytics]
+rootURL = "//susliko.dev/"
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
