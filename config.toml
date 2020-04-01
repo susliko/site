@@ -1,4 +1,4 @@
-baseURL = "http://susliko.dev/"
+baseURL = "http://susliko.github.io/"
 languageCode = "en"
 title = "blog"
 theme = "kiss"
@@ -46,10 +46,10 @@ platforms = ["github","linkedin","telegram"]
 
 [params.matomoAnalytics]
 siteID = 1
-rootURL = "//susliko.dev/"
+rootURL = "//susliko.github.io/"
 
 [params.fathomAnalytics]
-rootURL = "//susliko.dev/"
+rootURL = "//susliko.github.io/"
 
 [taxonomies]
 tag ="tags"
