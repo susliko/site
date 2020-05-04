@@ -7,7 +7,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build cv
 cd cv
-latexmk -pdf
+./build_cv.sh
 cd ..
 
 # Build the project.
