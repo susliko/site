@@ -7,6 +7,7 @@ googleAnalytics = ""
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
 enableEmoji = true
+staticDir = ["static", "cv"]
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
@@ -58,4 +59,5 @@ tag ="tags"
 hrefTargetBlank = true
 
 [params.sections_left]
-"/cv" = "cv"
+"/cv.pdf" = "cv"
+
