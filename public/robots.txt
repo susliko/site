@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://susliko.github.io//sitemap.xml
