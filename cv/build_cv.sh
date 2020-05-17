@@ -1,2 +1,2 @@
-latexmk --pdf
-rm *.aux *.fdb_latexmk *.fls *.gz *.out *.log
+latexmk --pdf --quiet
+rm *.aux *.fdb_latexmk *.fls *.out *.log

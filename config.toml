@@ -1,4 +1,4 @@
-baseURL = "http://susliko.github.io/"
+baseURL = "https://susliko.github.io/"
 languageCode = "en"
 title = "blog"
 theme = "kiss"
