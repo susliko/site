@@ -28,7 +28,6 @@ codeCopy = true # Add copy button above code blocks
 taxonomiesCount = true # Add taxonomies count
 
 [params.features]
-disqusOnDemand = true  # Load Disqus comments on click
 
 [params.opengraph.twitter]
 page = "markoukin" # Twitter Page username. If not set, params.social.twitter will be used.
