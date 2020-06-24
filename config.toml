@@ -8,6 +8,8 @@ Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
 enableEmoji = true
 staticDir = ["static", "cv"]
+disqusShortname = "susliko"
+
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
